@@ -13,5 +13,6 @@ $env:Path += ";C:\Users\xxxxxx\AppData\Roaming\npm"
 npm init -y
 ## Install Cypress
 npm install cypress
-## Ouvrir Cypress
+
+# Ouvrir Cypress
 npx cypress open
