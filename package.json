@@ -1,0 +1,12 @@
+{
+  "name": "fyc-cypress",
+  "version": "1.0.0",
+  "description": "node --version \r npm --version\r ## Install node js et npm\r Node js : https://nodejs.org/en\r $env:Path -split ';'\r $env:Path += \";C:\\Program Files\\nodejs\"\r $env:Path += \";C:\\Users\\xxxxxx\\AppData\\Roaming\\npm\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
