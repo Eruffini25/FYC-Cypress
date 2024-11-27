@@ -26,4 +26,14 @@ npm install cypress
 ```shell
 npx cypress open
 ```
+Cliquer E2E testing 
+Choisir le navigateur
+Cliquer sur Scaffold example specs
+
+# Création du fichier pour test API
+```shell
+cd .\cypress\e2e\
+New-Item -Path .\api-tests -ItemType Directory
+New-Item -Path .\api-tests\api_test.cy.js -ItemType File
+```
 
