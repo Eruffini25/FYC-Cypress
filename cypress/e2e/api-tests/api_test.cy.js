@@ -10,12 +10,14 @@ describe('API Tests for parfums-esgi.store', () => {
     it('Test POST request', () => {
       cy.request({
         method: 'POST',
-        url: `${apiUrl}/products`, // Remplacer products
+        url: `${apiUrl}/login`, 
         body: {
-          username: 'testuser',
-          password: 'testpassword',
+          email: 'XXXXXXX',
+          password: 'XXXXXXXX',
         },
       }).then((response) => {
+        cy.log('Status:', response.status);
+        cy.log('Body:', JSON.stringify(response.body));
         expect(response.status).to.eq(200); // Vérifie que la requête est réussie
         expect(response.body).to.have.property('token'); // Vérifie qu'un token est renvoyé
       });
